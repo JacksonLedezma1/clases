@@ -78,7 +78,8 @@ En `tsconfig.json` ajusta estas opciones:
 Ejemplo básico con **Express + CORS + dotenv**:
 
 ```ts
-import express, { Request, Response } from "express";
+import express from "express";
+import type { Request, Response } from "express";
 import cors from "cors";
 import "dotenv/config";
 
@@ -143,4 +144,5 @@ npm run dev
 ---
 
 ✅ Listo. Ahora tienes un servidor Express con TypeScript, CORS y dotenv configurado.
+
 
